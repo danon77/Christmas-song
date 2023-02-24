@@ -1,0 +1,26 @@
+body{
+    background-image: url(/christmas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.song{
+    width: 800px;
+    background: rgba(0, 0, 0, 0.5);
+    color: snow;
+    font-size: 30px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+    line-height: 50px;
+    cursor: pointer;
+}
+.song:hover{
+    box-shadow: 5px 5px 10px gold,
+                -5px -5px 10px gold;
+}
+.song:active{
+    transform: scale(0.99);
+}
